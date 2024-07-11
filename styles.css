@@ -1,0 +1,172 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;    
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section .container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#hero {
+    background-image: url('https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-21.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#features .container h1
+{
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: blue;
+}
+
+#service
+{
+    background-color: transparent;
+    border: none;
+    color: #f0f0f0;
+    /* font-weight: 550; */
+    font-size: 15px;
+}
+#service option
+{
+    background-color: #333;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    /* color: #4CAF50; */
+}
+
+.feature-item {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+.social-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+}
+.social-icons a
+{
+    color: #f0f0f0;
+    text-decoration: none;
+    width: 50px;
+}
+.social-icons a:hover
+{
+    background-color:rgb(49, 46, 46);
+}
+.contact-details
+{
+    height: 300px;
+    padding-left: 20px;
+    /* background-color: #4CAF50; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+}
+#contact .contact-details div
+{
+    height: 90%;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 0 0 30px black;
+}
+#contact .contact-details div:hover
+{
+    background-color: rgb(113, 252, 252);
+}
+#contact .contact-details div .div1,.div2,.div3
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#contact .contact-details div h1
+{
+    display: flex;
+    justify-content: center;
+}
+#contact .contact-details div i
+{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    border: 2px solid black;
+    width: 50px;
+    height: fit-content;
+    border-radius: 30px;
+    background-color: aquamarine;
+    box-shadow: 0 0 10px black;
+}
+#contact .contact-details div i:hover
+{
+    background-color: rgb(39, 238, 172);
+}
+#contact .contact-details div p
+{
+    padding-left: 20px;
+}
